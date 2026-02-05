@@ -1,5 +1,5 @@
 
-# 🚀 Rattrapage API Development
+# API Development
 
 
 ## 🛠️ Stack Technique
@@ -53,16 +53,17 @@ Rattrapage-API-Development/
 
 ## 🗺️ Schéma d'architecture (visuel)
 
+
 ```mermaid
 flowchart TD
-	 A[🌐 Client HTTP] --> B[🔗 Route Express]
-	 B --> C[🛡️ Middleware (Zod)]
-	 C --> D[🧑‍💻 Contrôleur]
-	 D --> E[⚙️ Service]
-	 E --> F1[(🍃 MongoDB\nMongoose)]
-	 E --> F2[(📈 InfluxDB)]
-	 F1 -.->|Réponse JSON| A
-	 F2 -.->|Réponse JSON| A
+	A[Client HTTP] --> B[Route Express]
+	B --> C[Middleware (Zod)]
+	C --> D[Contrôleur]
+	D --> E[Service]
+	E --> F1[(MongoDB / Mongoose)]
+	E --> F2[(InfluxDB)]
+	F1 -.->|Réponse JSON| A
+	F2 -.->|Réponse JSON| A
 ```
 
 <p align="center">
