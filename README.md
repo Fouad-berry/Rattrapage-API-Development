@@ -50,11 +50,7 @@ Rattrapage-API-Development/
 - **Architecture modulaire** : Séparation claire des responsabilités (contrôleurs, services, middlewares, modèles).
 
 
-
-## 🗺️ Schéma d'architecture (visuel)
-
-
-## 🗺️ Schéma d'architecture (visuel)
+## Schéma d'architecture (visuel)
 
 ```mermaid
 flowchart TD
