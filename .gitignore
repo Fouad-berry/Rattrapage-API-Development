@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+backend/.env
+backend/.env.local
+
+# Docker volumes
+docker-data/
+mongo-data/
+influxdb-data/
+
+# OS files
+.DS_Store
+Thumbs.db
