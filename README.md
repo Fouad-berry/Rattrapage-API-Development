@@ -98,9 +98,22 @@ Mongoose (sauvegarde en base)
 Réponse JSON
 ```
 
+
 ## Lancement du projet
 ```bash
 docker-compose up --build
+```
+
+## Tester l'API
+
+Après le démarrage, vérifiez le bon fonctionnement avec la route de test :
+
+```bash
+curl http://localhost:3000/api/ping
+```
+Vous devez obtenir :
+```json
+{ "message": "L'API fonctionne bien" }
 ```
 
 ## Auteur

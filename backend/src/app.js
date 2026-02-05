@@ -1,7 +1,6 @@
 // Point d'entrée principal de l'application Express
 // Initialise les middlewares, routes et connexions aux bases de données
 
-
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
